@@ -81,7 +81,7 @@ body {
 .envelope-container {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
     z-index: 10;
     perspective: 1000px;
@@ -91,7 +91,7 @@ body {
 .envelope {
     position: relative;
     width: 600px;
-    height: 800px;
+    height: 1800px;
     cursor: pointer;
     animation: float 6s ease-in-out infinite;
     transform-style: preserve-3d;
