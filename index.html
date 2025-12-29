@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starry Night Message</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="night-sky">
+        <!-- Stars overlay for subtle twinkle effect -->
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+        
+        <!-- Floating Glass Envelope -->
+        <div class="envelope-container">
+            <div class="envelope" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body">
+                    <div class="envelope-seal">✉</div>
+                    <div class="message-content" id="messageContent">
+                        <h1>С Новым годом, Айдана!</h1>
+                        <p>Хочу поздравить тебя с этим волшебным праздником и подарить небольшой подарок. Знаю, это не Graff и не белое золото, но когда я увидел это украшение, сразу подумал о тебе - и решил, что оно должно быть твоим. Надеюсь, оно тебе понравится.
+
+<br>Пусть новый год принесёт тебе ещё больше успехов, вдохновения и ярких побед. Желаю крепкого здоровья, гармонии и людей, которые будут любить, ценить и поддерживать тебя.
+
+<br>С наилучшими пожеланиями,
+Z.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Background Music with autoplay -->
+    <audio id="backgroundMusic" loop autoplay preload="auto">
+        <source src="music.mp3" type="audio/mpeg">
+        <source src="music.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Music Control Button -->
+    <button class="music-control" id="musicToggle" aria-label="Toggle music">
+        <span class="music-icon">🎵</span>
+    </button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
