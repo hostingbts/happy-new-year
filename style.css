@@ -170,8 +170,8 @@ body {
 /* Message Content (Hidden Initially) */
 .message-content {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #ffffff;
