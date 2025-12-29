@@ -91,7 +91,7 @@ body {
 .envelope {
     position: relative;
     width: 600px;
-    height: 2000px;
+    height: 2500px;
     cursor: pointer;
     animation: float 6s ease-in-out infinite;
     transform-style: preserve-3d;
