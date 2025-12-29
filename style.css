@@ -80,7 +80,7 @@ body {
 /* Envelope Container */
 .envelope-container {
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
@@ -90,7 +90,7 @@ body {
 /* Floating Glass Envelope */
 .envelope {
     position: relative;
-    width: 800px;
+    width: 500px;
     height: 3000px;
     cursor: pointer;
     animation: float 6s ease-in-out infinite;
@@ -170,8 +170,8 @@ body {
 /* Message Content (Hidden Initially) */
 .message-content {
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 40%;
+    left: 40%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #ffffff;
